@@ -2,10 +2,13 @@
 local keymap = vim.keymap.set
 local builtin = require('telescope.builtin')
 
+-- Vanilla
 keymap("n" , "<esc>", "<CMD>nohl<CR>", {desc = "Erase highlight from research"})
+
+-- Oil
 keymap("n" , "<leader>md", "<CMD>Oil<CR>", {desc = "Start Oil"})
 
-
+-- Telescope
 keymap('n', '<leader><leader>', builtin.find_files, { desc = 'Telescope find files' })
 keymap('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 keymap('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
