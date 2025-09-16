@@ -17,4 +17,4 @@ alias gcl="git clone"
 alias grs="git restore"
 
 #=========== SCRIPTS
-alias cmt="/sgoinfre/abetemps/Public/commit_maker.sh"
+alias cmt="$HOME/.config/scripts/commit_maker.sh"

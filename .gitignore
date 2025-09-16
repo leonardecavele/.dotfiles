@@ -1,0 +1,6 @@
+*
+*/**
+!hypr/
+!fish/
+!kitty/
+!nvim/
