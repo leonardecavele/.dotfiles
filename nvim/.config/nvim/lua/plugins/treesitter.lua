@@ -26,6 +26,7 @@ return {
         ensure_installed = {
             "bash",
             "c",
+            "cpp",
             "diff",
             "html",
             "javascript",
@@ -35,6 +36,7 @@ return {
             "lua",
             "luadoc",
             "luap",
+			"Makefile",
             "markdown",
             "markdown_inline",
             "printf",
