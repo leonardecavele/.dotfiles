@@ -11,11 +11,10 @@ glyph="⬤ "
 [box]
 title=" abe🌊 "
 border="rounded"
-color="red"
 visible=true
 
 [bar]
-glyph="▣"
+glyph="■"
 hide_delimiters=true
 visible=true
 
